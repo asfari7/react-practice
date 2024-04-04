@@ -3,8 +3,7 @@ import Greeting from "./Greeting";
 function App() {
   return (
     <>
-      <Greeting name="Asfari" />
-      <Greeting />
+      <Greeting name="Asfari" isloggedIn={true} />
     </>
   );
 }
