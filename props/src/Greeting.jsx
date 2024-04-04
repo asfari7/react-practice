@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 function Greeting(props) {
   return (
     <div>
@@ -5,6 +7,10 @@ function Greeting(props) {
     </div>
   );
 }
+
+Greeting.propTypes = {
+  name: PropTypes.string,
+};
 
 Greeting.defaultProps = {
   name: "World",
