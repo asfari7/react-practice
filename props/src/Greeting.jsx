@@ -13,7 +13,7 @@ Greeting.propTypes = {
 };
 
 Greeting.defaultProps = {
-  name: "Guest",
+  name: "Guest123",
 };
 
 export default Greeting;
